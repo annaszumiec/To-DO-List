@@ -1,6 +1,6 @@
 # To-DO-List
 
-##List-function
+## List-function
 
 - The user can add a new item to a list of items.
 - The user can cross out an item from the list of items.
