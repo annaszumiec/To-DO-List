@@ -4,7 +4,6 @@ $('button').addClass('text--white');
 $('button').click(
     function(){
         let toAdd = $('#input').val();
-    
          if($('#input').val() ===''){
             alert("Write item to add to the list")
          }else{
@@ -17,6 +16,7 @@ $('button').click(
 
 $('ol').sortable();  
 
+
 $('ol').on('click','li', function(){
     $(this).toggleClass('strike');    
   });
@@ -24,6 +24,9 @@ $('ol').on('click','li', function(){
 $('ol').on('dblclick','li', function(){
      $(this).toggleClass('strike').fadeOut('slow');  
   });
+
+  $('.crossOutButton').append('<li>x</li>')
+  deleteButton.append(document.createTextNode('X'));
 
 
 

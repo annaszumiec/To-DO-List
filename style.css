@@ -3,16 +3,14 @@ body{
     background: #dfdfdf;
 }
 
-.red { background: tomato; }
+.red { background: rgb(255, 27, 80); }
 .text--white { color: white }
 
 .strike{
     text-decoration: line-through;
     color: red;
 }
-.delete {
-    display: none;
-  }
+
 .container{
     padding: 20px;
     width: 300px;
@@ -22,10 +20,12 @@ body{
     background: white;
     border-radius: 5px;}
 input{
-border: 1px dotted tomato;
+border: 1px dotted rgb(253, 67, 110);;
   }
 button{
     border: none;
+    height: 20px;
+    width: 70px;
   }
 button:hover{
     cursor: pointer;
@@ -36,5 +36,17 @@ li:hover{
 }
 .item{
     font-style: italic;
-    font-size: 12px;
+    font-size: 14px;
+}
+
+.delete {
+	display: none;
+}
+
+ .crossOutButton {
+	background: none;
+	border: none;
+	float: right;
+	color: #025f70;
+	font-weight: 800;
 }
